@@ -1,0 +1,51 @@
+[
+	{
+		"nombre": "bicicleta",
+		"tipo": "ciclo",
+		"llantas": 2,
+		"motor": "no",
+		"puertas": 0
+	},
+	{
+		"nombre":"triciclo",
+		"tipo": "ciclo",
+		"llantas": 3,
+		"motor": "no",
+		"puertas": 0
+	},
+	{
+		"nombre":"motocicleta",
+		"tipo": "ciclo",
+		"llantas": 2,
+		"motor": "si",
+		"puertas": 0
+	},
+	{
+		"nombre":"sportscar",
+		"tipo": "automovil",
+		"size": "chico",
+		"motor": "si",
+		"puertas": 2
+	},
+	{
+		"nombre":"sedan",
+		"tipo": "automovil",
+		"size": "mediano",
+		"motor": "si",
+		"puertas": 4
+	},
+	{
+		"nombre":"minivan",
+		"tipo": "automovil",
+		"size": "mediano",
+		"motor": "si",
+		"puertas": 3
+	},
+	{
+		"nombre":"suv",
+		"tipo": "automovil",
+		"size": "grande",
+		"motor": "si",
+		"puertas": 4
+	}
+]
