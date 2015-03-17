@@ -32,8 +32,9 @@ public class ExpertSystem {
 				return "MiniVan";
 				
 			case 4:
+				System.out.flush();
 				System.out.println("que tamaño es? ( b(grande) / m(mediano) / s(pequeño) )");
-				input = in.nextLine();
+				input = in.next();
 				if(input.equals("b"))
 				{
 					return "SUV";
@@ -44,7 +45,7 @@ public class ExpertSystem {
 				}
 				else{
 					System.out.println("tiene 2 puertas? y/n");
-					input = in.nextLine();
+					input = in.next();
 					if(input.equals("y"))
 					{
 						return "Sports Car";

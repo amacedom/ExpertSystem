@@ -6,7 +6,7 @@ public class Driver {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String workingDir = System.getProperty("user.dir");
-		String filename = workingDir + "/src/jason.json";
+		String filename = workingDir + "\\SistemaExperto\\src\\jason.json";
 		
 		JSONReader jreader;
 		List<JSONObject> objects;
